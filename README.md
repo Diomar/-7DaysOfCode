@@ -1,3 +1,3 @@
 # -7DaysOfCode
-#7DaysOfCode // https://7dayofcode-landing-page.netlify.app/
-
+#7DaysOfCode // 
+#Resultado do desafio https://7dayofcode-landing-page.netlify.app/
