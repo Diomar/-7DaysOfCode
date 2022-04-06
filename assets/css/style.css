@@ -1,0 +1,529 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    width: 1280px;
+    justify-content: space-between;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo .title {
+    margin-left: 8px;
+    color: #3A404E;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+.menu {
+    margin-left: -398px;
+}
+
+.menu, ul, li {
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.menu a {
+    text-decoration: none;
+    list-style: none;
+    margin: 0px 32px 0px 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+}
+
+
+.btn-navBar {
+    display: flex;
+    align-items: center;
+    
+}
+
+.btn-navBar .cadastrar {
+    margin-left: 30px;
+    padding: 10px 18px;
+    background-color: #8E2424;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+
+.btn-navBar .entrar {
+    text-decoration: none;
+    color: #667085;
+}
+
+#cabecalho {
+    display: flex;
+    justify-content: center;
+    height: 407px;
+}
+
+#cabecalho .container {
+    display: flex;
+    justify-content: center;
+}
+
+#cabecalho .conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 791px;
+    text-align: center;
+}
+
+#cabecalho .title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    height: 24px;
+    padding-top: 96px;
+   
+}
+
+#cabecalho .subtitle{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    margin-top: 24px;
+    color: #101828;
+}
+
+#cabecalho .desc{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 36px;
+    color: #667085;
+}
+
+/* ========== METRICAS ========= */
+#metrica {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 96px;
+}
+
+#metrica .container {  
+    
+    flex-direction: column;
+}
+
+#metrica .content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item1 {
+    flex: 1;
+    max-width: 400px;
+    margin-left: 2em;
+}
+
+.item1:first-child {
+    margin-left: 0;
+}
+
+.item1 .metrica_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    color: #8E2424;
+    margin-bottom: 12px;
+}
+.item1 .metrica_sub {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+    margin-bottom: 8px;
+}
+.item1 .metrica_desc {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+    padding-bottom: 107px;
+}
+
+/*========= Talentos ======== */
+#talento {
+    display: flex;
+    justify-content: center;
+    margin-top: 96px;
+}
+
+#talento .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+#talento .area-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#talento .area-form .title {
+    display: inline-block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    color: #8E2424;
+    padding: 4px 12px;
+
+}
+#talento .area-form .sub-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #101828;
+    padding: 20px 20px;
+}
+
+#talento .desc {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #667085;    
+    padding-bottom: 64px;
+    text-align: center;
+}
+
+#talento .imagem img {
+    width: 100%;
+}
+
+
+/* ====== VAGAS ======= */
+#vagas {
+   display: flex;
+   justify-content: center; 
+   width: 100%;
+   
+}
+
+#vagas .container {
+     flex-direction: column;  
+     margin-left: 20px;    
+}
+
+.content-vagas {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo-vaga {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #101828;
+    width: 768px;
+    margin: 0 auto;
+    margin-top: 64px;
+    margin-bottom: 32px;
+    
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EAECF0;
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.informacoes:nth-child(2) {
+    margin-bottom: 0px;
+}
+
+.informacoes:nth-child(3) {
+    margin-top: 24px;
+}
+
+.informacoes .cargo {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+    padding: 24px 24px 32px 24px;
+    width: 768px;
+}
+
+.informacoes .salario {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+    padding: 0px 28px 28px 24px;
+}
+
+/* ====== DEPOIMENTOS ======= */
+#depoimentos {
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+}
+
+#depoimentos .container { 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(195, 25, 25, 0.03);
+}
+
+.atribuicao1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.atribuicao1 .title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8E2424;
+    text-align: center;
+    padding-top: 64px;
+}
+
+.atribuicao1 .desc {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #101828;
+    margin: 16px 0px 32px 0px;
+}
+
+.atribuicao {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.atribuicao .nome {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #101828;
+    margin: 16px 0px 4px 0px;
+}
+
+.atribuicao .funcao {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #667085;
+    padding-bottom: 64px;
+}
+
+
+/* ========= FORMULÁRIO EMAIL======= */
+#formulario {
+    display: flex;
+    justify-content: center;
+    background-color: #F9FAFB;
+    margin-top: 32px;
+}
+
+#formulario .container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#formulario .area-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.area-form .title {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #101828;
+    padding: 96px 0px 20px 0px;
+}
+.area-form .sub-title {
+    text-align: center;
+    color: #667085;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0px 0px 40px 0px;
+}
+
+.cadastrar {
+    padding: 12px 20px;
+    background-color: #8E2424;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    margin-left: 16px;
+}
+
+.area-form .email {
+    background-color: #FFFFFF;
+    padding: 12px 14px 12px 16px;
+    border: 1px solid #D0D5DD;
+    outline: none;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+.form  input {
+    background-color: #FFFFFF;
+    padding: 12px 14px 12px 16px;
+    border: 1px solid #D0D5DD;
+    outline: none;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    color: #667085;
+    cursor: auto;
+}
+
+.footer-copy {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #98A2B3;
+    padding: 32px 0px 96px 0px; 
+    
+} 
+
+
+/* RESPONSIVO */
+@media (max-width: 1024px) {
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .menu {
+        margin-left: -150px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .menu {
+        margin: 0px;
+    }
+     
+     .titulo-vaga {
+         width: 550px;
+    } 
+     
+     .informacoes .cargo {
+         
+         width: 550px;
+     }
+    
+}
+
+@media (max-width: 425px) {
+    .menu {
+        display: none;
+    }
+
+    .titulo-vaga {
+        width: 300px;
+   } 
+    
+    .informacoes .cargo {
+        
+        width: 300px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
