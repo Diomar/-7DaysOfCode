@@ -60,7 +60,6 @@ header {
 .btn-navBar {
     display: flex;
     align-items: center;
-    
 }
 
 .btn-navBar .cadastrar {
@@ -105,7 +104,6 @@ header {
     line-height: 24px;
     height: 24px;
     padding-top: 96px;
-   
 }
 
 #cabecalho .subtitle{
@@ -128,7 +126,7 @@ header {
     color: #667085;
 }
 
-/* ========== METRICAS ========= */
+/* ========== MÉTRICAS ========= */
 #metrica {
     display: flex;
     justify-content: center;
@@ -164,6 +162,7 @@ header {
     color: #8E2424;
     margin-bottom: 12px;
 }
+
 .item1 .metrica_sub {
     font-family: 'Inter';
     font-style: normal;
@@ -173,6 +172,7 @@ header {
     color: #101828;
     margin-bottom: 8px;
 }
+
 .item1 .metrica_desc {
     font-family: 'Inter';
     font-style: normal;
@@ -194,7 +194,6 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
 }
 
 #talento .area-form {
@@ -214,8 +213,8 @@ header {
     border-radius: 16px;
     color: #8E2424;
     padding: 4px 12px;
-
 }
+
 #talento .area-form .sub-title {
     font-family: 'Inter';
     font-style: normal;
@@ -247,7 +246,6 @@ header {
    display: flex;
    justify-content: center; 
    width: 100%;
-   
 }
 
 #vagas .container {
@@ -272,7 +270,6 @@ header {
     margin: 0 auto;
     margin-top: 64px;
     margin-bottom: 32px;
-    
 }
 
 .informacoes {
@@ -498,7 +495,6 @@ header {
          
          width: 550px;
      }
-    
 }
 
 @media (max-width: 425px) {
